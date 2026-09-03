@@ -24,4 +24,9 @@ int main(){
             cout<<arr[i][j]<<" ";
         }cout<<endl;
     }
+    //memory free
+    for(int i=0;i<n;i++){
+        delete[]arr[i];
+    }
+    delete[]arr;
 }
