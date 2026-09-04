@@ -5,10 +5,11 @@ int factorial(int n){
     if(n==0){
         return 1; //return is mandatory in base case
     }
-    int smallerproblem=factorial(n-1);
-    int biggerproblem=n*smallerproblem;
+    //int smallerproblem=factorial(n-1);
+    //int biggerproblem=n*smallerproblem;
+    //return =biggerproblem;
 
-    return biggerproblem;
+    return n*factorial(n-1);
 }
 int main(){
     int n;
