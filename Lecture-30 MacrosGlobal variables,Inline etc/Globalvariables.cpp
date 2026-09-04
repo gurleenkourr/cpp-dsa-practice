@@ -10,7 +10,6 @@ void a(int& i) {
     char ch = 'a';
     cout << i << endl;
 }
-
 void b(int& i) {
     cout << score << " in b" << endl;
     cout << i << endl;
