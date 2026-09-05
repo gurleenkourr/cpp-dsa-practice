@@ -1,0 +1,16 @@
+#include <bits/stdc++.h> 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double principal;
+    cin>>principal;
+    double rate;
+    cin>>rate;
+    double time;
+    cin>>time;
+
+    int ans=floor(principal*rate*time)/100;
+    cout<<ans<<endl;
+    return 0;
+}
