@@ -13,10 +13,8 @@ void reverse(string &name,int i,int j){
     //recursive call
     reverse(name,i,j);
 }
-
 int main(){
     string name ="Gurleen";
     reverse(name,0,name.length()-1);
     cout<<name<<endl;
-
 }
