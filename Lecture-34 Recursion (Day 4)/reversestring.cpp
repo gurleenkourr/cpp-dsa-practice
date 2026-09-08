@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 void reverse(string &name,int i,int j){
+    cout<<"Call received like: "<<name<<endl;
     //base caase
     if(i>j){
         return;
