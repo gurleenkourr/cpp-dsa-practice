@@ -1,6 +1,5 @@
-//GFG PROBLEM SOLUTION
-//Rat in a maze
-/*\
+//GFG problem solution
+/*
 class Solution {
     private:
     bool issafe(int x,int y,int n,vector<vector<int>>visited,vector<vector<int>>& maze){
