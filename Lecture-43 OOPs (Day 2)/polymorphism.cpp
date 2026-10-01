@@ -42,6 +42,8 @@ class B {
 
 };
 */
+
+//RUN TIME POLYMORPHISM
 class Animal{
     public:
     void speak(){
