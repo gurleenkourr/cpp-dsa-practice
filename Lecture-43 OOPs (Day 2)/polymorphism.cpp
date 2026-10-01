@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-//COMPILE TIME POLYMORPHISM
 /*
+//COMPILE TIME POLYMORPHISM
 //Function overloading
 class A{
     public:
@@ -17,7 +17,8 @@ class A{
     }
 
 };
-*/
+
+//Operator overloading
 class B {
     public:
     int a;
@@ -40,8 +41,31 @@ class B {
     }
 
 };
+*/
+class Animal{
+    public:
+    void speak(){
+        cout<<"Speaking"<<endl;
+    }
+};
+class Dog:public Animal{
+    public:
+    void speak(){
+        cout<<"Barking"<<endl;
+    }
+};
 
 int main(){
+    Animal obj1;
+    obj1.speak();
+    Dog obj2;
+    obj2.speak();
+    /*
+    A obj;
+    obj.sayHello();
+    */
+
+   /*
     B obj1, obj2;
 
     obj1.a = 4;
@@ -49,5 +73,5 @@ int main(){
 
     obj1 + obj2;
     obj1();
-
+   */
 }
