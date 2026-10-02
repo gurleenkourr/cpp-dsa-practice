@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int Lenghth;
+    cin>>Lenghth;
+    int Breadth;
+    cin>>Breadth;
+
+    int ans =Lenghth*Breadth;
+    cout<<ans;
+
+    return 0;
+}

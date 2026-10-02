@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string Name;
+    cin>>Name;
+
+
+    int Age;
+    cin>>Age;
+    int A=Age;
+
+    cout<<"The name of the person is "<<Name<<" "<<"and the age is "<<Age<<".";
+
+    return 0;
+}
